@@ -10,18 +10,27 @@
 </head>
 <body>
 
+
 <script type="text/javascript">
 
-    function showit(){
-
-        var myalert=document.getElementById("atext").value;
-        alert(myalert);
+    function genQR(){
+        var gapi="https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs=";
+        var myimg=document.getElementById("img");
+        var mytext=document.getElementById("qrtext").value;
+        var mysize=document.getElementById("size").value;
 
 
     }
 
+
+
+
+
+
+
+
 </script>
-<textarea  id="atext" cols="30" rows="10"></textarea>
-<input type="submit" value="Click Me " onclick="showit()">
+
+
 </body>
 </html>
