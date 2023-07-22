@@ -1,6 +1,8 @@
 # QR_Code_Generator
 QR Code Generator Using JavaScript 
 
+- https://vishnuka084.github.io/QR_Code_Generator/
+
 - Html
 - JavaScript
 
